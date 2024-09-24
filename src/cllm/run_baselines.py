@@ -15,7 +15,6 @@ import pickle
 import argparse
 
 save_df_path = Path().resolve() / "save_dfs"
-print(f"save_df_path: {save_df_path}")
 
 def main():
     parser = argparse.ArgumentParser(description="Run baselines on a dataset.")

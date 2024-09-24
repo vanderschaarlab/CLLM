@@ -7,7 +7,7 @@ SCRIPT="$SCRIPT_DIR/../src/cllm/run_great.py"
 # Declare the arrays
 datasets=("covid" "seer" "compas" "cutract" "maggic")
 n_values=(10 50 100)
-seeds=(0)
+seeds=(0 1 2)
 
 # Iterate through the arrays
 for dataset in "${datasets[@]}"

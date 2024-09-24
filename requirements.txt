@@ -9,7 +9,7 @@ scikit-learn
 scipy
 sentencepiece==0.1.99
 seaborn==0.12.2
-# vllm==0.2.7
+vllm==0.2.7
 be_great==0.0.5
 imblearn==0.0
 openml==0.14.1

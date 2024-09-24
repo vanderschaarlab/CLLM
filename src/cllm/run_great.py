@@ -13,7 +13,6 @@ import pickle
 import argparse
 
 save_df_path = Path().resolve() / "save_dfs"
-print(f"save_df_path: {save_df_path}")
 
 def main():
     parser = argparse.ArgumentParser(description="Run baselines on a dataset.")
@@ -65,7 +64,6 @@ def main():
 
     with open(save_df_path / f"great_pipeline_{dataset}_{seed}_{ns}.pickle", "wb") as f:
         pickle.dump(results, f)
-
 
 
 if __name__ == "__main__":
